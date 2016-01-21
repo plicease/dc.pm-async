@@ -15,7 +15,8 @@ my $res      = $tx->res;
 # this URL will have the trailing /
 my $base_url = $tx->req->url;
 
-# fetch all a href attributes in the document
+# fetch all a href attributes in the document that
+# look like an aspell tarball
 my @links = $res->dom->find('a')
                      ->map(sub { $_->attr('href') })
                      ->grep(sub { /^aspell-.*\.tar\.gz$/ })
