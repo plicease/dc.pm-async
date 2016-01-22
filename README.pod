@@ -23,4 +23,14 @@ designed to test L</anyevent-finger.pl>
 Demonstrates high level HTTP non-blocking in a single thread using 
 Mojolicious.
 
+=head2 thread-mirror.pl
+
+Threaded version of mojo-mirror.pl that uses L<threads> instead of 
+L<Mojolicious>.  Can also be run using L<forks> if you set the C<FORKS>
+environment variable to a true vale.
+
+=head1 AUTHORS
+
+=head2 Graham Ollis <plicease@cpan.org>
+
 =cut

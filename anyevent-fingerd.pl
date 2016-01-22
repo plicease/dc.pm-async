@@ -5,7 +5,7 @@
 use strict;
 use warnings;
 use 5.020;
-use experimental qw( signatures );
+use experimentals;
 use AnyEvent;
 use AnyEvent::Open3::Simple;
 use AnyEvent::Finger::Server;
