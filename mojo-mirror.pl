@@ -24,11 +24,13 @@ my @links = $res->dom->find('a')
                      ->to_array
                      ->@*;
 
+# pick an output directory.
 my $out_dir = dir('aspell')->absolute;
 mkdir $out_dir unless -d $out_dir;
 
 foreach my $link (@links)
 {
+  # fetch each link in parallel in a single thread
   Mojo::IOLoop->delay(
     sub ($delay) {
       $ua->get($link, $delay->begin);
@@ -42,4 +44,6 @@ foreach my $link (@links)
   );
 }
 
+# enter the mojo even loop until all events
+# clear out.
 Mojo::IOLoop->start unless Mojo::IOLoop->is_running;
