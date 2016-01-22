@@ -8,17 +8,17 @@ the purposes of discussion and ease of translation.
 
 =head1 EXAMPLES
 
-=head2 anyevent-finger.pl (Perl 5)
+=head2 anyevent-finger.pl
 
 Demonstrates low-level non-blocking sockets in a single thread using the 
 archaic, but simple "finger" protocol.
 
-=head2 anyevent-fingerd.pl (Perl 5)
+=head2 anyevent-fingerd.pl
 
 Demonstrates higher level non-blocking finger server.  Mainly just 
 designed to test L</anyevent-finger.pl>
 
-=head2 mojo-mirror.pl (Perl 5)
+=head2 mojo-mirror.pl
 
 Demonstrates high level HTTP non-blocking in a single thread using 
 Mojolicious.
