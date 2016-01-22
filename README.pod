@@ -1,5 +1,26 @@
-=head1 ASYNC EXAMPLES
+=head1 ASYNC Perl 5 vs Perl 6 Grudge Match
 
-Here are some examples for DC.pm wherein we will attempt to compare and contrast the various asynchronous APIs in Perl 5 and Perl 6.
+Here are some examples for DC.pm wherein we will attempt to compare and 
+contrast the various asynchronous APIs in Perl 5 and Perl 6.
+
+The intent is to keep the examples as simple and easy to understand for 
+the purposes of discussion and ease of translation.
+
+=head1 EXAMPLES
+
+=head2 anyevent-finger.pl (Perl 5)
+
+Demonstrates low-level non-blocking sockets in a single thread using the 
+archaic, but simple "finger" protocol.
+
+=head2 anyevent-fingerd.pl (Perl 5)
+
+Demonstrates higher level non-blocking finger server.  Mainly just 
+designed to test L</anyevent-finger.pl>
+
+=head2 mojo-mirror.pl (Perl 5)
+
+Demonstrates high level HTTP non-blocking in a single thread using 
+Mojolicious.
 
 =cut
