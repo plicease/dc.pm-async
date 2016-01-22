@@ -1,5 +1,5 @@
 =head1 ASYNC EXAMPLES
 
-Here are some examples for DC.pm wherein we will attempt to compare and contrast the various asynchronous APIS in Perl 5 and Perl 6.
+Here are some examples for DC.pm wherein we will attempt to compare and contrast the various asynchronous APIs in Perl 5 and Perl 6.
 
 =cut
