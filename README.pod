@@ -29,6 +29,13 @@ Threaded version of mojo-mirror.pl that uses L<threads> instead of
 L<Mojolicious>.  Can also be run using L<forks> if you set the C<FORKS>
 environment variable to a true vale.
 
+=head1 CAVEATS
+
+The term "Grudge Match" in the title of this document is there entirely 
+for marketing reasons.  We reason that people are more likely to click 
+on a link if it looks contraversial, but the intent of this project is 
+to enlighten, not to divide us.
+
 =head1 AUTHORS
 
 =over 4
