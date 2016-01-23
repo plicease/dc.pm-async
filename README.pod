@@ -31,6 +31,10 @@ environment variable to a true vale.
 
 =head1 AUTHORS
 
-=head2 Graham Ollis <plicease@cpan.org>
+=over 4
+
+=item Graham Ollis <plicease@cpan.org>
+
+=back
 
 =cut
