@@ -29,6 +29,10 @@ Threaded version of mojo-mirror.pl that uses L<threads> instead of
 L<Mojolicious>.  Can also be run using L<forks> if you set the C<FORKS>
 environment variable to a true vale.
 
+=head2 thread-sleep.pl
+
+Stupid simple threads example that demonstrates preeemtive async.
+
 =head1 CAVEATS
 
 The term "Grudge Match" in the title of this document is there entirely 
